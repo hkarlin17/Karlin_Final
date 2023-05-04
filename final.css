@@ -38,7 +38,7 @@ img {
 figcaption {
   clear: right;
   font-style: italic;
-  text-align: center;
+  text-align: right;
 }
 
 img:hover {
