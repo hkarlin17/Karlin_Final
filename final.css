@@ -46,18 +46,18 @@ img:hover {
   margin-bottom: 0;
 }
  
-.image-caption {
+.figcaption {
   float: right;
   width: 30%;
   margin: 0 0 1em 1em;
 }
 
-.image-caption img {
+.figcaption img {
   width: 100%;
   height: auto;
 }
 
-.image-caption figcaption {
+.figcaption {
   text-align: center;
   font-style: italic;
   font-size: 0.8em;
