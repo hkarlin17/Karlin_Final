@@ -41,6 +41,23 @@ img:hover {
   float: right;
   clear: right;
 }
+
+.caption {
+  font-size: 15px;
+  margin-right: 5%
+}
+.image-container {
+  width: 100%;
+}
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+}
+.caption {
+  text-align: center;
+}
+
 }
 .button {
   background-color: #indianred;
