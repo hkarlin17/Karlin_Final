@@ -13,7 +13,7 @@
 	text-align: center;
 	font-family: 'Georgia', serif;
 	background-color: #306BAC;
-	color: #98B9F2;
+	color: red;
 }
 h4 {
 	font-style: italic;
@@ -26,7 +26,7 @@ h3 {
 
 p {
   font-family: 'Poppins', sans-serif;
-  font-size: 20px;
+  font-size: 10px;
 }
 img {
   float: right;
