@@ -9,7 +9,7 @@
 	font-weight: bold;
 	font-size: 50px;
 	text-align: center;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', serif;
 	background-color: pink;
 	color: red;
 }
@@ -37,30 +37,18 @@ img:hover {
   transform: rotate3d(1, 1, 0, 45deg);
 }
 
-.image-container img {
-  float: right;
-  margin-right: 5px;
-}
-.image-container p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
- 
 .figcaption {
-  float: right;
-  width: 30%;
-  margin: 0 0 1em 1em;
-}
-
-.figcaption img {
-  width: 100%;
-  height: auto;
+  position: relative;
 }
 
 .figcaption {
-  text-align: center;
-  font-style: italic;
-  font-size: 0.8em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 10px;
 }
 
 }
