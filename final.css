@@ -35,12 +35,6 @@ img {
   transition: transform 0.5s ease;
 }
 
-figcaption {
-  clear: right;
-  font-style: italic;
-  text-align: right;
-}
-
 img:hover {
   transform: rotate3d(1, 1, 0, 45deg);
 }
