@@ -37,12 +37,15 @@ img:hover {
   transform: rotate3d(1, 1, 0, 45deg);
 }
 
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .caption {
-  display: block;
   margin-top: 10px;
   text-align: center;
-  font size: 15px;
-  margin-right: 7%
 }
 
 .button {
