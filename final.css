@@ -38,21 +38,12 @@ img:hover {
 }
 
 .caption {
-  float: right;
-  clear: right;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font size: 15px;
 }
 
-.caption {
-  font-size: 15px;
-  margin-right: 7%
-}
-.img {
-  display: block;
-}
-.caption {
-  position: relative;
-  display: inline-block;
-}
 .button {
   background-color: #indianred;
   color: #hotpink;
